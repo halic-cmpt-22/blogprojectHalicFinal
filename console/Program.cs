@@ -23,6 +23,22 @@ var post = new Post();
 post.Title = "New Post";
 post.Content = "New Content";
 
+var blog2 = new Blog(); // Ömer Faruk
+blog2.Url = "https://github.com/OmerDemir0"; // Ömer Faruk
+blog.Rating = 10; // Ömer Faruk
+
+var blog3 = new Blog(); // Ömer Faruk
+blog2.Url = "https://github.com/mehmetfrk";  // Ömer Faruk
+blog.Rating = 10; // Ömer Faruk
+
+var blog4 = new Blog(); // Ömer Faruk
+blog2.Url = "https://github.com/bechesoftware";  // Ömer Faruk
+blog.Rating = 10; // Ömer Faruk
+
+
 blog.Posts.Add(post);
-db.Add(blog);
+db.Add(blog); // Ömer Faruk
+db.Add(blog2); // Ömer Faruk
+db.Add(blog3); // Ömer Faruk
+db.Add(blog4); // Ömer Faruk
 db.SaveChanges();
