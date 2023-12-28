@@ -8,6 +8,6 @@ Var olan uygulama blog önerme servisi ile güncellenecektir.
 
 ## Proje Grubu
 
-[Berke Çuhadar 22070370008] (https://github.com/bechesoftware)
-[Ömer Faruk Demir 22070370011] (https://github.com/OmerDemir0)
-[Mehmet Faruk Asılsoy 22070370002] (https://github.com/mehmetfrk)
+[Berke Çuhadar 22070370008](https://github.com/bechesoftware)
+[Ömer Faruk Demir 22070370011](https://github.com/OmerDemir0)
+[Mehmet Faruk Asılsoy 22070370002](https://github.com/mehmetfrk)
