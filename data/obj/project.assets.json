@@ -1265,19 +1265,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/gokhanmerden/.nuget/packages/": {}
+    "C:\\Users\\gothm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gokhanmerden/Public/Halic/blog/data/data.csproj",
+      "projectUniqueName": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
       "projectName": "data",
-      "projectPath": "/Users/gokhanmerden/Public/Halic/blog/data/data.csproj",
-      "packagesPath": "/Users/gokhanmerden/.nuget/packages/",
-      "outputPath": "/Users/gokhanmerden/Public/Halic/blog/data/obj/",
+      "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
+      "packagesPath": "C:\\Users\\gothm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gokhanmerden/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\gothm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1328,7 +1328,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

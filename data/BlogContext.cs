@@ -10,7 +10,7 @@ namespace data {
     {
         public BlogContext()
         {
-            DbPath = System.IO.Path.Join("/Users/gokhanmerden/Public/Halic/blog", "blogdb.db");
+            DbPath = System.IO.Path.Join(@"C:\Users\gothm\Documents\GitHub\blogprojectHalicFinal", "blogdb.db");
         }
         public string DbPath { get; }
         public DbSet<Blog> Blogs { get; set; }
