@@ -6,6 +6,10 @@ Bu proje Haliç Üniversitesi Bilgisayar Teknolojileri İleri Programlama 2023-2
 ## KONU
 Var olan uygulama blog önerme servisi ile güncellenecektir.
 
+## EKSTRA
+Fıkra uygulaması eklendi
+Özlü Söz uygulaması eklendi
+
 ## Proje Grubu
 
 [Berke Çuhadar 22070370008](https://github.com/bechesoftware)
