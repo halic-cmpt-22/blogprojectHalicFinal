@@ -16,6 +16,7 @@ namespace data.uows
         private Repository<Blog> _blogRepository;
         private Repository<Post> _postRepository;
         private Repository<Jokes> _jokesRepo;
+        private Repository<Maxims> _maximRepo;
         public Repository<Blog> blogRepository {
             get {
                 if (_blogRepository == null) {
@@ -40,5 +41,14 @@ namespace data.uows
                 return _jokesRepo;
             }
         }
+        public Repository<Maxims> maximRepo {
+            get {
+                if (_maximRepo == null) {
+                    _maximRepo = new Repository<Maxims>(_context);
+                }
+                return _maximRepo;
+            }
+        }
+
     }
 }

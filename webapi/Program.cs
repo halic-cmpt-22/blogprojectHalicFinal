@@ -2,6 +2,7 @@
 using webapi;
 using webapi.Blog;
 using webapi.Jokes;
+using webapi.Maxim;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -44,6 +45,7 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 BlogMap.AddMap(app);
 JokesMap.AddMap(app);
+MaximMap.AddMap(app);
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

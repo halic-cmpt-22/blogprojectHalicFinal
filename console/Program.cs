@@ -19,10 +19,6 @@ var blog = new Blog();
 blog.Url = "http://www.google.com";
 blog.Rating = 5;
 
-var post = new Post();
-post.Title = "New Post";
-post.Content = "New Content";
-
 var blog2 = new Blog(); 
 blog2.Url = "https://github.com/OmerDemir0"; 
 blog.Rating = 10; 
@@ -38,11 +34,23 @@ blog.Rating = 10;
 var jokes = new Jokes(); 
 jokes.jcontext = "dunyanınenkomiksakasi";
 
+var maxim = new Maxims(); 
+maxim.mcontext = "cokozlusoz";
 
-blog.Posts.Add(post);
+var maxim2 = new Maxims(); 
+maxim.mcontext = "Hava soğuyunca değil yüreği soğuyunca başlarmış insanın kışı";
+
+var maxim3 = new Maxims(); 
+maxim.mcontext = "Öldürür beni kirpiğinin her tanesi hayırlı cumalar aşkların birtanesi";
+
+
+
 db.Add(blog); 
 db.Add(blog2); 
 db.Add(blog3); 
 db.Add(blog4);
 db.Add(jokes);
+db.Add(maxim);
+db.Add(maxim2);
+db.Add(maxim3);
 db.SaveChanges();
