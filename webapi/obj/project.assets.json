@@ -1717,19 +1717,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gothm\\.nuget\\packages\\": {}
+    "C:\\Users\\ahmed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\gothm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\webapi\\obj\\",
+      "projectPath": "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gothm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1741,11 +1741,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
-              "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj"
+            "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
+              "projectPath": "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\data\\data.csproj"
             },
-            "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {
-              "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj"
+            "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {
+              "projectPath": "C:\\Users\\ahmed\\OneDrive\\Belgeler\\GitHub\\blogprojectHalicFinal\\services\\services.csproj"
             }
           }
         }
@@ -1805,7 +1805,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "message": "Bağımlılık kısıtlaması dışında algılanan paket sürümü: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0, MediatR (>= 11.0.0 && < 12.0.0) gerektiriyor ancak sürüm MediatR 12.2.0 çözümlenmiş.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

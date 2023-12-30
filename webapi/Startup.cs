@@ -14,6 +14,7 @@ namespace webapi
         services.AddMediatR(cfg => {
             cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
             cfg.RegisterServicesFromAssembly(typeof(BlogQuery).Assembly);
+            cfg.RegisterServicesFromAssembly(typeof(JokesQuery).Assembly);
             
         });
 

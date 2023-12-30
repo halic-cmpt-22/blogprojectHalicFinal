@@ -13,8 +13,8 @@ namespace webapi.Blog
         {
             app.MapGet("blog/{id}", async (int id, IMediator mediator) => 
             {
-                var (blog, recBlog) = await mediator.Send(new BlogQuery { id = id });  //Mehmet Faruk
-                return new { Blog = blog, RecommendedBlog = recBlog }; //Mehmet Faruk
+                var (blog, recBlog) = await mediator.Send(new BlogQuery { id = id }); 
+                return new { Blog = blog, RecommendedBlog = recBlog }; 
             });
         }
     }

@@ -15,6 +15,7 @@ namespace data.uows
         }
         private Repository<Blog> _blogRepository;
         private Repository<Post> _postRepository;
+        private Repository<Jokes> _jokesRepo;
         public Repository<Blog> blogRepository {
             get {
                 if (_blogRepository == null) {
@@ -29,6 +30,14 @@ namespace data.uows
                     _postRepository = new Repository<Post>(_context);
                 }
                 return _postRepository;
+            }
+        }
+        public Repository<Jokes> jokesRepo {
+            get {
+                if (_jokesRepo == null) {
+                    _jokesRepo = new Repository<Jokes>(_context);
+                }
+                return _jokesRepo;
             }
         }
     }
