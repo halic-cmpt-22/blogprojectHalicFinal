@@ -19,26 +19,38 @@ var blog = new Blog();
 blog.Url = "http://www.google.com";
 blog.Rating = 5;
 
-var post = new Post();
-post.Title = "New Post";
-post.Content = "New Content";
+var blog2 = new Blog(); 
+blog2.Url = "https://github.com/OmerDemir0"; 
+blog.Rating = 10; 
 
-var blog2 = new Blog(); // Ömer Faruk
-blog2.Url = "https://github.com/OmerDemir0"; // Ömer Faruk
-blog.Rating = 10; // Ömer Faruk
+var blog3 = new Blog(); 
+blog2.Url = "https://github.com/mehmetfrk";  
+blog.Rating = 10; 
 
-var blog3 = new Blog(); // Ömer Faruk
-blog2.Url = "https://github.com/mehmetfrk";  // Ömer Faruk
-blog.Rating = 10; // Ömer Faruk
+var blog4 = new Blog(); 
+blog2.Url = "https://github.com/bechesoftware";  
+blog.Rating = 10; 
 
-var blog4 = new Blog(); // Ömer Faruk
-blog2.Url = "https://github.com/bechesoftware";  // Ömer Faruk
-blog.Rating = 10; // Ömer Faruk
+var jokes = new Jokes(); 
+jokes.jcontext = "dunyanınenkomiksakasi";
+
+var maxim = new Maxims(); 
+maxim.mcontext = "cokozlusoz";
+
+var maxim2 = new Maxims(); 
+maxim.mcontext = "Hava soğuyunca değil yüreği soğuyunca başlarmış insanın kışı";
+
+var maxim3 = new Maxims(); 
+maxim.mcontext = "Öldürür beni kirpiğinin her tanesi hayırlı cumalar aşkların birtanesi";
 
 
-blog.Posts.Add(post);
-db.Add(blog); // Ömer Faruk
-db.Add(blog2); // Ömer Faruk
-db.Add(blog3); // Ömer Faruk
-db.Add(blog4); // Ömer Faruk
+
+db.Add(blog); 
+db.Add(blog2); 
+db.Add(blog3); 
+db.Add(blog4);
+db.Add(jokes);
+db.Add(maxim);
+db.Add(maxim2);
+db.Add(maxim3);
 db.SaveChanges();

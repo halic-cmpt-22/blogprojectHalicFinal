@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {}
+    "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
+    "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
         "projectName": "data",
-        "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
-        "packagesPath": "C:\\Users\\gothm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\obj\\",
+        "projectPath": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj",
+        "packagesPath": "C:\\Users\\CASPER-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gothm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\CASPER-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,30 +71,32 @@
         }
       }
     },
-    "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {
+    "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj",
         "projectName": "services",
-        "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj",
-        "packagesPath": "C:\\Users\\gothm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\services\\obj\\",
+        "projectPath": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\services\\services.csproj",
+        "packagesPath": "C:\\Users\\CASPER-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gothm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\CASPER-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
-                "projectPath": "C:\\Users\\gothm\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj"
+              "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj": {
+                "projectPath": "C:\\Users\\CASPER-1\\Documents\\GitHub\\blogprojectHalicFinal\\data\\data.csproj"
               }
             }
           }

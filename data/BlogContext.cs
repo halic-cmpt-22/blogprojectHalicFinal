@@ -10,11 +10,13 @@ namespace data {
     {
         public BlogContext()
         {
-            DbPath = System.IO.Path.Join(@"C:\Users\gothm\Documents\GitHub\blogprojectHalicFinal", "blogdb.db"); //Berke Çuhadar
+            DbPath = System.IO.Path.Join(@"C:\Users\CASPER-1\Documents\GitHub\blogprojectHalicFinal", "blogdb.db"); 
         }
         public string DbPath { get; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Jokes> Jokes { get; set; }
+        public DbSet<Maxims> Maxims { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         => options.UseSqlite($"Data Source={DbPath}");
